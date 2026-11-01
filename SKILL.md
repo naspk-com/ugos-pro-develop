@@ -1,8 +1,8 @@
 ---
 name: ugos-pro-develop
 description: 绿联云（UGREEN NAS / UGOS Pro / HomeAgent）应用开发参考库。当需要开发、打包、上架 UGOS Pro 系统的原生应用或 Docker 应用时应使用此技能，覆盖 ugcli 工具、project.yaml 配置、应用架构、产品线分发、登录认证、前端 JSSDK（UGOS Core）、桌面开放能力、前端构建工具（builder-open）与开发者身份审核等。触发词：绿联云、UGREEN、UGOS Pro、HomeAgent、ugcli、project.yaml、NAS应用开发、Docker NAS应用、upk打包、builder-open、ugreen-nas/core。
-author: SakuraNeko
-email: devneko@outlook.com
+author: 尘墨成
+email: dustink@qq.com
 agent_created: true
 metadata:
   source: https://developer.ugnas.com/
