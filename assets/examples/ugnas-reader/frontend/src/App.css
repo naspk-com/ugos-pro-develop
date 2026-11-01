@@ -1,0 +1,19 @@
+/* Global scaffolding only. Page-specific styles live next to the page. */
+
+.app-loading {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.dev-banner {
+  background: #fff5d8;
+  color: #6b4f00;
+  border-bottom: 1px solid #f0d98a;
+  font-size: 12px;
+  padding: 6px 12px;
+  text-align: center;
+}

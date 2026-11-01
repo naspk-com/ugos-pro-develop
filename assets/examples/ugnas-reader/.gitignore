@@ -1,0 +1,65 @@
+# Local doc cache (used during initial AGENTS.md research; safe to delete)
+.docs-raw/
+.docs-md/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*~
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+dist/
+build/
+build_dir/
+.npm/
+.pnpm-store/
+.yarn/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# UGOS app build artifacts
+*.upk
+rootfs_amd64/bin/*
+rootfs_arm64/bin/*
+!rootfs_amd64/bin/.gitkeep
+!rootfs_arm64/bin/.gitkeep
+rootfs_common/www/*
+!rootfs_common/www/.gitkeep
+
+# Local secrets / dev auth
+ugdev.sig
+*.local
+.env
+.env.*
+!.env.example
+
+# Local sandbox used for end-to-end backend tests (sample library + sqlite db)
+.testdata/

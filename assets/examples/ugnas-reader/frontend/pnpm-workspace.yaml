@@ -1,0 +1,5 @@
+# pnpm >= 11 requires explicit opt-in for any package that runs install scripts.
+# esbuild ships native binaries and unpacks them via postinstall.
+allowBuilds:
+  esbuild: true
+

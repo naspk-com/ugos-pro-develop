@@ -1,0 +1,49 @@
+spec_version: "2.1"
+app_id: com.leafvmaple.ugnasreader
+version: 0.1.0
+support_arch:
+  - amd64
+  - arm64
+supports:
+  - app
+  - pc
+start_cmd: bin/ugnas_reader --port=21010
+port: 21010
+proxy_path: api
+open_type: inner
+tag_types:
+  - media
+depend_fw_version: 1.13.0.0000
+support_migration: true
+allow_add_access_path: true
+permissions: []
+parameters:
+  - key: LIBRARY_PATH
+    type: path
+    multi: true
+    required: false
+    changeable: true
+    i18n:
+      en-US:
+        name: Library Folders
+        description: Folders on the NAS to scan for books (TXT for now).
+      zh-CN:
+        name: 书库目录
+        description: NAS 上用于扫描电子书的目录（当前仅 TXT），可配置多个。
+i18n:
+  en-US:
+    name: UGREEN NAS Reader
+    description: Read your TXT (and later EPUB/PDF/MOBI) library straight from your UGREEN NAS, with cross-device progress sync.
+    author: leafvmaple
+    official: https://github.com/leafvmaple/ugnas-reader
+    help: https://github.com/leafvmaple/ugnas-reader#readme
+    publisher: leafvmaple
+    publisher_link: https://github.com/leafvmaple
+  zh-CN:
+    name: 绿联云阅读器
+    description: 在绿联云 NAS 上集中阅读 TXT（后续支持 EPUB/PDF/MOBI），多端同步阅读进度。
+    author: leafvmaple
+    official: https://github.com/leafvmaple/ugnas-reader
+    help: https://github.com/leafvmaple/ugnas-reader#readme
+    publisher: leafvmaple
+    publisher_link: https://github.com/leafvmaple
