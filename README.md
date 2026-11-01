@@ -2,7 +2,7 @@
 
 > 绿联云（UGREEN NAS / UGOS Pro / HomeAgent）应用开发 Skill
 
-一个面向 WorkBuddy 的标准 Skill 库，为绿联 UGOS Pro 系统的应用开发提供完整参考。当需要开发、打包、上架 UGOS Pro 系统的**原生应用**或 **Docker 应用**时使用。
+一个面向 AI Agent 的标准 Skill 库，为绿联 UGOS Pro 系统的应用开发提供完整参考。当需要开发、打包、上架 UGOS Pro 系统的**原生应用**或 **Docker 应用**时使用。
 
 ## 覆盖内容
 
