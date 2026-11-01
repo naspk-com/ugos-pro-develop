@@ -38,5 +38,5 @@ ugos-pro-develop/
 ## 说明
 
 - 数据来源：https://developer.ugnas.com/ （抓取日期 2026-11-01）
-- 符合 WorkBuddy 标准 Skill 库结构：`SKILL.md`（含 frontmatter）+ `references/`（按需加载参考文档）+ `assets/`（示例样板）
+- 符合 AI Agent 标准 Skill 库结构：`SKILL.md`（含 frontmatter）+ `references/`（按需加载参考文档）+ `assets/`（示例样板）
 - 版本管理使用 Git 标签（tag）
